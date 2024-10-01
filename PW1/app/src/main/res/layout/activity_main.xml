@@ -1,0 +1,52 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/amountInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите сумму"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/categoryInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите категорию"/>
+
+    <EditText
+        android:id="@+id/dateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите дату"/>
+
+    <Button
+        android:id="@+id/addExpenseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить расход"/>
+
+    <Button
+        android:id="@+id/showExpensesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показать все расходы"/>
+
+    <Button
+        android:id="@+id/showCategoryTotalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показать итоги по категориям"/>
+
+    <TextView
+        android:id="@+id/outputTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Здесь будут отображаться данные"
+        android:textSize="16sp"
+        android:paddingTop="16dp"/>
+</LinearLayout>
